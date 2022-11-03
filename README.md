@@ -4,13 +4,13 @@
 
 </div>
 
-![Video-Aplicação](https://user-images.githubusercontent.com/62897976/185768202-9e2fda79-b014-4d99-a10e-1f0852a981a1.gif)
+![Video-Aplicação](https://raw.githubusercontent.com/Samuraiflamesf/BateriaEletronica_Js/main/assets/bateriaeletronicajs.netlify.app_(Nest%20Hub%20Max).png)
 
 <img src="./src/Assets/gif.gif" alt="Descrição da imagem">
 
 <div align="center">
   
-[![Tech](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
+[![Tech](https://skillicons.dev/icons?i=bootstrap,js)](https://skillicons.dev)
 
 </div>
 
@@ -18,15 +18,15 @@
 
 ![status-finalizado](https://user-images.githubusercontent.com/62897976/185768561-589083e1-f18f-480b-9709-0ca24acf9c6d.svg)
 
-> Resumo do Projeto: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+> Resumo do Projeto: Bateria Eletrónica 🎼 utilizando Bootstrap e Js!
 
 ## 🎯 Implementações/Features
 
-- [ ] Começando
-- [ ] Estilos Globais do Projeto
-- [ ] Estruturação/Estilização Avançada
+- [x] Começando
+- [x] Estilos Globais do Projeto
+- [x] Estruturação/Estilização Avançada
+- [x] Projeto Finalizado
 - [ ] Resolvendo Bugs
-- [ ] Projeto Finalizado
 
 ## 🤝 Colaboradores
 
@@ -51,10 +51,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 **Link 1**
 
-- aaa
-- bbb
-
-**Link 2**
-
-- aaa
-- bbb
+- b7web
