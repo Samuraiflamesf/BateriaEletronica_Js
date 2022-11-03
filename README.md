@@ -4,9 +4,7 @@
 
 </div>
 
-![Video-Aplicação](https://raw.githubusercontent.com/Samuraiflamesf/BateriaEletronica_Js/main/assets/bateriaeletronicajs.netlify.app_(Nest%20Hub%20Max).png)
-
-<img src="./src/Assets/gif.gif" alt="Descrição da imagem">
+![Video-Aplicação](<https://raw.githubusercontent.com/Samuraiflamesf/BateriaEletronica_Js/main/assets/bateriaeletronicajs.netlify.app_(Nest%20Hub%20Max).png>)
 
 <div align="center">
   
