@@ -1,40 +1,58 @@
-document.body.addEventListener("keyup", (event) => {
-  playSound(event.code.toLowerCase());
-});
+var numberToFind = 0;
+var attempt = 0;
 
-document.querySelector(".composer button").addEventListener("click", () => {
-  let song = document.querySelector("#input").value;
+function buttonOff() {
+  document.querySelector("#btn").classList.add("placeholder");
+  document.querySelector("#btn").classList.add("disabled");
+}
+function buttonOn() {
+  document.querySelector("#btn").classList.remove("placeholder");
+  document.querySelector("#btn").classList.remove("disabled");
+}
+function alertClean() {
+  document.querySelector("#alertBig").classList.add("d-none");
+  document.querySelector("#alertSmall").classList.add("d-none");
+  document.querySelector("#alertErro").classList.add("d-none");  
+}
 
-  if (song !== "") {
-    let songArray = song.split("");
-    playComposition(songArray);
-    console.log(songArray);
+function refresh() {
+  //Gerar o numero aleatório
+  numberToFind = parseInt(Math.random() * 100);
+  console.log(numberToFind);
+}
+
+function verifyNumber() {
+  alertClean();
+  buttonOff();
+  let bet = document.querySelector("#bet").value;
+  console.log(bet);
+
+  if (bet > 100 || bet < 1) {
+    document.querySelector("#alertErro").classList.remove("d-none");
+    buttonOn()
+    return;
   }
-});
-
-function playSound(sound) {
-  let audioElement = document.querySelector(`#s_${sound}`);
-  let keyElement = document.querySelector(`div[data-key="${sound}"]`);
-
-  if (audioElement) {
-    audioElement.currentTime = 0;
-    audioElement.play();
+  if (bet > numberToFind) {
+    attempt++;
+    setInterval(()=>{
+      document.querySelector("#alertBig").classList.remove("d-none");
+      buttonOn()
+    },2000)
   }
-  if (keyElement) {
-    keyElement.classList.add("active");
-    setTimeout(() => {
-      keyElement.classList.remove("active");
-    }, 300);
+  if (bet < numberToFind) {
+    attempt++;
+    setInterval(()=>{
+      document.querySelector("#alertSmall").classList.remove("d-none");
+      buttonOn()
+    },2000)
+  }
+  else{
+    console.log(attempt);
+    let alertSucess =    document.querySelector("#alertSuccess")
+    alertSucess.innerHTML('🪐 Parabéns você acertou!! Com '+attempt+' erros!');
+    alertSucess.classList.remove
+
   }
 }
 
-function playComposition(songArray) {
-  let wait = 0;
-
-  songArray.forEach((item) => {
-    setTimeout(() => {
-      playSound(`numpad${item}`);
-    }, wait);
-    wait += 200;
-  });
-}
+refresh();

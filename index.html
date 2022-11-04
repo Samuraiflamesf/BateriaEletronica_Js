@@ -18,62 +18,40 @@
   <script type="text/javascript" src="bootstrap/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="bootstrap/jquery-3.6.0.min.js"></script>
   <!-- Titulo -->
-  <title>Bateria</title>
+  <title>
+
+  </title>
 </head>
 
-<body class="d-flex align-items-center justify-content-center">
-  <div id="area">
-    <div class="container d-flex flex-column m-auto text-center align-content-center ">
-      <h2 class="h1 m-3">Bateria</h2>
-      <div class="d-flex flex-column">
-        <div class="row h2 mt-5 mb-5">
-          <div class="col"></div>
-          
-          <div class="col-2">
-            <div data-key='numpad7' class="key m-auto">7</div>
-            <div data-key='numpad4' class="key m-auto mt-4 mb-4">4</div>
-            <div data-key='numpad1' class="key m-auto">1</div>
-          </div>
-
-          <div class="col-2 ">
-            <div data-key='numpad8' class="key m-auto ">8</div>
-            <div data-key='numpad5' class="key m-auto mt-4 mb-4">5</div>
-            <div data-key='numpad2' class="key m-auto">2</div>
-          </div>
-
-          <div class="col-2">
-            <div data-key='numpad9' class="key m-auto">9</div>
-            <div data-key='numpad6' class="key m-auto mt-4 mb-4">6</div>
-            <div data-key='numpad3' class="key m-auto">3</div>
-          </div>
-          <div class="col"></div>
-        </div>
-        <div class="row m-2">
-          <input type="text" id="input" class="w-100 p-2 text-center " placeholder="Faça sua musica." />
-        </div>
-        <div class="row m-2 mb-4 composer">
-          <button class="btn btn-success m-auto h1">Tocar</button>
-        </div>
-
+<body class="d-flex align-items-center justify-content-center flex-column">
+  <div class="alert alert-danger d-none" role="alert" id="alertErro">
+    Aposta invalida!
+  </div>
+  <div class="alert alert-primary d-none" role="alert" id="alertSmall">
+    👀 O número para ser encontrado é MENOR 😰
+  </div>
+  <div class="alert alert-primary d-none" role="alert" id="alertBig">
+    👀 O número para ser encontrado é MAIOR 😨
+  </div>
+<div class="alert alert-success d-none" role="alert" id="alertSuccess">
+  
+  </div>
+  <div class="card area">
+    <div class="card-body m-5 p-2">
+      <div class="row h2 ">
+        Descobrir o número de 0 a 100
       </div>
-      <footer class="mb-3">
-        Criado com amor por @Bernardo.Nogueira8
-      </footer>
+      <div class="row m-auto mt-3 mb-3 p-3">
+        <input type="text" class="text-center m-auto" id="bet" placeholder="Digite um número">
+      </div>
+      <div class="row mt-2">
+        <button class="btn btn-warning w-50 m-auto" id="btn" onclick="verifyNumber()">Enviar</button>
+      </div>
     </div>
   </div>
-
-  <audio id="s_numpad7" src="sounds/keyq.wav"></audio>
-  <audio id="s_numpad8" src="sounds/keyw.wav"></audio>
-  <audio id="s_numpad9" src="sounds/keye.wav"></audio>
-  <audio id="s_numpad4" src="sounds/key4.wav"></audio>
-  <audio id="s_numpad5" src="sounds/keys.wav"></audio>
-  <audio id="s_numpad6" src="sounds/keyd.wav"></audio>
-  <audio id="s_numpad1" src="sounds/keyz.wav"></audio>
-  <audio id="s_numpad2" src="sounds/keyx.wav"></audio>
-  <audio id="s_numpad3" src="sounds/keyc.wav"></audio>
-
-    <!-- Javascript Custom -->
-    <script type="text/javascript" src="script.js"></script>
+  </div>
+  <!-- Javascript Custom -->
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
