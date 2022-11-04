@@ -1,24 +1,32 @@
 body {
-  background-color: #219EBC;
-  min-height: 100vh;
-}
-.area{
-  background-color: #023047;
-  color: #fff;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-#area {
-  background-color: #023047;
-  color: #fff;
-  width: 100%;
-  max-width: 600px;
-  min-width: 400px;
-  height: 100%;
-  max-height: 800px;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-button{
+    background-color: #1e1e1e;
+    min-height: 100vh;
+  }
+  #area {
+    background-color: #000000;
+    color: #fff;
+    width: 100%;
+    max-width: 600px;
+    min-width: 400px;
+    height: 100%;
+    max-height: 800px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .key {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+  }
 
+.key.active {
+    border: 2px solid rgb(0, 160, 48);
+    color: rgb(0, 160, 48);
+;
 }
