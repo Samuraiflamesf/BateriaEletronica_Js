@@ -1,7 +1,20 @@
 document.body.addEventListener("keyup", (event) => {
   playSound(event.code.toLowerCase());
+  if(event.key === "Enter"){
+    console.log('enter');
+    composer()
+  }
 });
 
+function composer() {
+  let song = document.querySelector("#input").value;
+
+  if (song !== "") {
+    let songArray = song.split("");
+    playComposition(songArray);
+    console.log(songArray);
+  }
+}
 document.querySelector(".composer button").addEventListener("click", () => {
   let song = document.querySelector("#input").value;
 
