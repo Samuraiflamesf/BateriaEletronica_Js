@@ -4,7 +4,7 @@
 
 </div>
 
-![Video-Aplicação](<https://raw.githubusercontent.com/Samuraiflamesf/BateriaEletronica_Js/main/assets/bateriaeletronicajs.netlify.app_(Nest%20Hub%20Max).png>)
+![Video-Aplicação](<https://github.com/Samuraiflamesf/BateriaEletronica_Js/blob/main/assets/1.png?raw=true>)
 
 <div align="center">
   
