@@ -1,10 +1,10 @@
 <div align="center">
   
-# Bateria Eletronica 🎼 <a href="https://bateriaeletronicajs.netlify.app/">Link da Aplicação</a>
+# Bateria Eletrônica 🎼 <a href="https://bateriaeletronicajs.netlify.app/">Link da Aplicação</a>
 
 </div>
 
-![Video-Aplicação](<https://github.com/Samuraiflamesf/BateriaEletronica_Js/blob/main/assets/1.png?raw=true>)
+https://user-images.githubusercontent.com/62897976/201478588-78ffc071-ef45-49fa-bda5-8bceefe797a0.mp4
 
 <div align="center">
   
@@ -16,7 +16,7 @@
 
 ![status-finalizado](https://user-images.githubusercontent.com/62897976/185768561-589083e1-f18f-480b-9709-0ca24acf9c6d.svg)
 
-> Resumo do Projeto: Criando uma Bateria Eletronica para tocar altas musicas 🎼 utilizando Bootstrap e Js!
+> Resumo do Projeto: Criando uma Bateria Eletrônica para tocar altas musicas 🎼 utilizando Bootstrap e Js!
 
 ## 🎯 Implementações/Features
 
