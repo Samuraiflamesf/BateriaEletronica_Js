@@ -4,8 +4,7 @@
 
 </div>
 
-
-![Video-Aplicação](<https://github.com/Samuraiflamesf/BateriaEletronica_Js/blob/main/app.mp4>)
+https://user-images.githubusercontent.com/62897976/201478588-78ffc071-ef45-49fa-bda5-8bceefe797a0.mp4
 
 <div align="center">
   
