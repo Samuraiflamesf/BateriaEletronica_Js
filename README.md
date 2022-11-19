@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/62897976/201478588-78ffc071-ef45-49fa-
 
 </div>
 
-# 📄 Tipo do Projeto/Nome do Projeto
+# 📄 BateriaEletronica_Js
 
 ![status-finalizado](https://user-images.githubusercontent.com/62897976/185768561-589083e1-f18f-480b-9709-0ca24acf9c6d.svg)
 
